@@ -39,6 +39,7 @@ const Button: React.FC<ButtonProps> = ({
     <TouchableOpacity
       style={[
         styles.base,
+        // eslint-disable-next-line react-native/no-unused-styles
         styles[variant],
         isDisabled && styles.disabled,
         style,
@@ -56,6 +57,7 @@ const Button: React.FC<ButtonProps> = ({
         <Text
           style={[
             styles.text,
+            // eslint-disable-next-line react-native/no-unused-styles
             styles[`${variant}Text` as keyof typeof styles] as TextStyle,
             isDisabled && styles.disabledText,
             textStyle,
