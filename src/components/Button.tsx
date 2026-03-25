@@ -71,6 +71,7 @@ const Button: React.FC<ButtonProps> = ({
 };
 
 const styles = StyleSheet.create({
+  // eslint-disable-next-line react-native/no-unused-styles
   base: {
     paddingVertical: layout.spacing.md,
     paddingHorizontal: layout.spacing.lg,
@@ -79,17 +80,21 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     minHeight: 48,
   },
+  // eslint-disable-next-line react-native/no-unused-styles
   primary: {
     backgroundColor: colors.primary,
   },
+  // eslint-disable-next-line react-native/no-unused-styles
   secondary: {
     backgroundColor: colors.secondary,
   },
+  // eslint-disable-next-line react-native/no-unused-styles
   outline: {
     backgroundColor: 'transparent',
     borderWidth: 2,
     borderColor: colors.primary,
   },
+  // eslint-disable-next-line react-native/no-unused-styles
   ghost: {
     backgroundColor: 'transparent',
   },
@@ -100,15 +105,19 @@ const styles = StyleSheet.create({
     fontSize: typography.sizes.base,
     fontWeight: typography.weights.semibold,
   },
+  // eslint-disable-next-line react-native/no-unused-styles
   primaryText: {
     color: colors.textInverse,
   },
+  // eslint-disable-next-line react-native/no-unused-styles
   secondaryText: {
     color: colors.textInverse,
   },
+  // eslint-disable-next-line react-native/no-unused-styles
   outlineText: {
     color: colors.primary,
   },
+  // eslint-disable-next-line react-native/no-unused-styles
   ghostText: {
     color: colors.primary,
   },
